@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <link href="./css/normalize.css" rel="stylesheet" type="text/css">
+            <link href="./css/stylesheet.css" rel="stylesheet" type="text/css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+            <title>Annabel's Portfolio</title>
+            <link rel="shortcut icon" type="image/png" href="./images/logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    
+
+    <body> 
+        <main>
+            <div class="grid">
+                <!-- Navigation------------------------------------------------- --> 
+                <div class="head">
+                    <div class="header">
+                        
+                            <div class="header-left">
+                                <a href="#Home" class="logo"></a>
+                            </div>
+
+                            <div class="header-right">
+                                <input type="checkbox" id="m1" class="hidden-menu-ticker">
+                                <label class="btn-menu" for="m1">
+                                  <span class="first"></span>
+                                  <span class="second"></span>
+                                  <span class="third"></span>
+                                </label>
+                                <ul class="hidden-menu">
+                                  <li><a href="#Home" class="menu-away">Home</a></li>  
+                                  <li><a href="#About" class="menu-away">About</a></li>
+                                  <li><a href="#Work" class="menu-away">My Work</a></li>
+                                  <li><a href="#Contact" class="menu-away">Contact</a></li> 
+                                </ul>
+                            </div>
+
+                            <div class="header-right-2">
+                                <nav>
+                                    <a href="#Contact" class="nav-animation">Contact</a>
+                                    <a href="#Work" class="nav-animation">My Work</a>
+                                    <a href="#About" class="nav-animation">About</a>
+                                    <a href="#Home" class="nav-animation">Home</a> 
+                                </nav>
+                            </div>
+                    </div>
+                </div> 
+                <!-- ------------------------------------------------------------ --> 
+                <!-- Hero image ------------------------------------------------- -->
+                <div id="Home" class="hero">
+                    <h1 class="heroTxt">Welcome!</h1>
+                    <h2 class="heroTxt1">I am a final year digital media student</h2>
+                    <div class="hero-img"></div>
+                    <img src="./images/face-main.png" alt="portrait illustration" class="hero-img-big"> 
+                </div> 
+              
+                <!-- ------------------------------------------------------------ -->
+                <!-- About Me ------------------------------------------------- -->
+                <div id="About" class="About">
+                    <h1 class="aboutMeHead">About Me <hr class="hr_title"></h1>
+
+                    <div class="aboutMe">
+                    
+                        <p class="aboutMeTxt">
+                            Designing and developing 3D models and animations are my passion. Through the progression
+                            of my Bachelor’s degree this knowledge has been expanded on and evolved towards a professional 
+                            standard. Widening my knowledge of website design and development practices has provided 
+                            insight into a variety of different coding languages. All establishing the basis for a range of
+                            successful 3D animations and interactive websites. Through volunteering as Course Representative 
+                            and founding a computing society, I have proactively worked at enhancing my collaboration skills.
+                            Mentoring has also encouraged this, but has allowed for personal ambitions to be revitalised 
+                            through helping others achieve their own. 
+                            <br> 
+                            <br>
+                            <!--
+                            I am proficient in a range of different languages and software through usage within my University
+                            degree including; HTML, CSS, SQL, JSON, JavaScript, Autodesk Maya, the full Adobe Suite (including 
+                            Photoshop, Illustrator, After Effects, InDesign, XD, etc.), PHP and Python 
+                            -->
+                        </p>
+                    
+                    </div>
+                </div>
+                <!-- ------------------------------------------------- -->
+                <!-- My Work ------------------------------------------------- -->
+                <div id="Work" class="myWork">
+                    <h1 class="myWorkHead">My Work <hr class="hr_title"></h1>
+                    
+                    <div class="workTxt1"> 
+                        <div class="modalBox">
+                            <div class="titleHr">
+                                <h3>Rest API Client</h3>
+                                <hr>
+                            </div>
+                            <h4>University Project</h4>
+                            <img src="./images/V&A.png" alt="V&A logo" class="tileImgs">
+                            <p class="modalTxt1" id="overview">
+                                Developed a rest API which is fully responsive, standards 
+                                compliant and a single page application which using vanilla HTML, CSS and JavaScript
+                                and DOM manipulation techniques to dynamically display search results to query the 
+                                V&A API through HTTP requests.
+                            </p>
+                            <!-- Modal----------------------------------- -->
+	                       <a class="modalButton" href="#modal1">Read more...</a>
+                        </div>
+
+                        <div id="modal1" class="overlay">
+                            <div class="modal">
+                                <hr>
+                                <h2>Rest API Client</h2>
+                                <hr>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p>
+                                        Through the second year of my University of Brighton course within Digital 
+                                        Media, one of the assignments tasked in the first semester was to develop a 
+                                        rest API for a client. It was asked that the rest API would be fully responsive,
+                                        standards compliant and a single page application which uses vanilla HTML, CSS
+                                        and JavaScript and DOM manipulation techniques to dynamically display search
+                                        results to query the V&A API through HTTP requests. To begin with this assignment 
+                                        was very challenging as I had never worked on anything like this before, but 
+                                        it provided an opportunity to test my skills and progress my knowledge within 
+                                        this subject. 
+                                    </p>
+                                    <p>
+                                        To begin this assignment a range of different tutorials were used to progress my
+                                        skills within JavaScript and using HTTP requests to receive data from an API. 
+                                        These tutorials were found on YouTube, along with tasks which were given within 
+                                        lectures to test my knowledge and skill. Working on the different tasks allowed 
+                                        for external research into the different opportunities when using JavaScript, 
+                                        including the use of conversions between different monies and temperatures. 
+                                    </p>
+                                    <img src="images/css.jpg" class="modal1Img">
+                                    <p>
+                                        When the assignment begun the first pages to be developed were a simple HTML page 
+                                        and the background JavaScript to ensure the functionality before the site was 
+                                        decorated. The simple HTML page consisted of a form, a background image and a 
+                                        back to top button. JavaScript was then used to add functionality to the page
+                                        and to connect to the V&A’s API. Firstly the JavaScript was connected to the 
+                                        form within the HTML using event listeners, with the function ‘getVA’ underneath 
+                                        which retrieves the data from the API and returns it to the page. When the user
+                                        searches the API the JavaScript builds the URL to see the documentation, then 
+                                        empty’s the previous results, parses the JSON string, loops over the data to 
+                                        retrieve the specified data in the search bar, collects the specified elements 
+                                        (including the image, artist name, artwork title, ect…) and returns this. 
+                                        Although an else statement has also been added to provide feedback to the user 
+                                        if the data could not be collected, and finally at the end sends the outcome 
+                                        of everything which has been retrieved to the HTML page. 
+                                    </p>
+                                    <img src="images/css.jpg" class="modal1Img">
+                                    <p>
+                                        After working on the background functions of the website, the CSS when then
+                                        developed to improve how the outputted information would look to the user. 
+                                        The overall style of the page was changed by adding a translucent header and
+                                        footer with a customised back to top button. The search bar was fixed to the
+                                        top of the page even when scrolling and was edited to be responsive and 
+                                        have the search icon separate to the search bar. The result images were 
+                                        also styled to come out in a responsive grid format, helping the design to
+                                        be more attractive to the audience. 
+                                    </p>
+                                    <img src="images/apiclient.jpg" class="modal1Img">
+                                    <p>
+                                        Overall this assignment allowed for the progression in a wide range of different
+                                        skills which can be applied to many future projects. Although this assignment 
+                                        was difficult I am proud of what I have learnt from it and look to develop 
+                                        more websites like this in the future to improve my skills further. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="workTxt2"> 
+                        <div class="modalBox">
+                            <div class="titleHr">
+                                <h3>Original Portfolio Development</h3>
+                                <hr>
+                            </div>
+                            <h4>University Project</h4>
+                            <img src="./images/myFace.png" alt="portfolio logo" class="tileImgs">
+                            <p class="modalTxt2" id="overview">
+                                Created an online portfolio using techniques including; project planning, research, 
+                                idea generation and design experimentation through mind maps and Adobe Photoshop 
+                                mock ups. The final design was developed using HTML5 and CSS. 
+                            </p>
+                            <!-- Modal----------------------------------- -->
+	                       <a class="modalButton" href="#modal2">Read more...</a>
+                        </div>
+                        <div id="modal2" class="overlay">
+                            <div class="modal">
+                                <hr>
+                                <h2>Original Portfolio Development</h2>
+                                <hr>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <p>
+                                        During the first year of University one of the second year assignment was to
+                                        create an online portfolio which would showcase all of my work in a professional
+                                        manor. To begin the assignment an action plan was developed to describe all of
+                                        the research which was used for this assignment but also to show how the ideas
+                                        have progressed throughout this assignment using sketches, mind maps and 
+                                        Adobe Photoshop mock ups. This started with the target sector which was 
+                                        researched to understand more about the jobs which I would be available to go
+                                        into including both front-end development jobs and back-end development jobs
+                                        . The research showed how it would be advantageous to progress my skills 
+                                        within different types of code including PHP, JavaScript, GSAP and JQuery 
+                                        widening my knowledge for my future years in the industry. 
+                                    </p>
+                                    <img src="images/targetSector.jpg" class="modal2Img"> 
+                                    <p>
+                                        To develop the site itself, many different elements were included to appeal to the
+                                        user as much as possible. The main body of the site was developed using HTML, with
+                                        all the content being created by myself to improve the originality of the site.
+                                        Once all of the basic HTML was added to the site, CSS was then used to style all
+                                        of the elements within the site, adding animation, interactivity and colour. 
+                                        Looking back on this assignment there were many hurdles which were faced and 
+                                        overcome, as I had never worked on a site without having aid from lecturers and 
+                                        tutorials, so my own initiative was used to learn all of the elements of site 
+                                        in my spare time. 
+                                    </p>
+                                    <p>
+                                        Along with the development of the site, many of the assets were created especially 
+                                        for the new portfolio website, including the hero image, and the concept images which
+                                        were included in the ‘concept image’ section of the new site. Both Adobe Photoshop
+                                        and Illustrator were used to design these assets, and were developed to enhance 
+                                        the visual aesthetics of the site.  
+                                    </p>
+                                    <img src="images/website.jpg" class="modal2Img">
+                                    <p>
+                                        Overall I was very happy with the outcome of this website as it contained all of 
+                                        the elements which was in the plan to be included. As this was the first time working
+                                        by myself on a website there were many elements which had been learnt from doing 
+                                        this, including user interactions, HTML and CSS techniques. If this assignment were 
+                                        to be given again, JavaScript and PHP could be added to enhance the interactivity and
+                                        animation throughout the site, along with a change in layout to continue user 
+                                        interaction throughout the whole website. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="workTxt3"> 
+                        <div class="modalBox">
+                            <div class="titleHr">
+                                <h3>Multimedia Application</h3>
+                                <hr>
+                            </div>
+                            <h4>University Project</h4>
+                            <img src="./images/Japan.png" alt="multimedia Japan logo" class="tileImgs">
+                            <p class="modalTxt3" id="overview"> 
+                                Designed and implemented an interactive multimedia artefact that
+                                incorporated both local and remote information based around the country Japan.
+                                Original scripts were created using JavaScript that implemented further interactivity,
+                                animation and data integration.
+                            </p>
+                            <!-- Modal----------------------------------- -->
+                            <a class="modalButton" href="#modal3">Read more...</a>
+                        </div>
+                        <div id="modal3" class="overlay">
+                            <div class="modal">
+                                <hr>
+                                <h2>Modal Application</h2>
+                                <hr>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                <p> 
+                                        For the first semester of first year, the brief was given that a multimedia artefact
+                                        needed to be created around a subject which we are passionate about. To begin this 
+                                        assignment, a layout design was needed to show exactly how the finished design would
+                                        look so to begin this my passions were thought about to choose what topic the artefact
+                                        would be based upon. The concept which was developed evolved around my love of 
+                                        Japanese landscapes and culture, which was taken forth into a multimedia application.
+                                        To understand a bit more about Japan both books and the internet were used to learn 
+                                        more about the culture and how it could be implemented into the artefact. Image 
+                                        references and information were taken from these sources to determine which elements
+                                        could be included into the design. The main elements which were decided to be 
+                                        included into the design were the Fushimi Inari Taisha shrine, Studio Ghibli and 
+                                        about the Geisha culture.
+                                    </p>
+                                    <p>
+                                        To get a better understanding of how each of the individual pages were going to look,
+                                        a few sketches were created to show the layouts and animation elements within the design.
+                                        Two different designs were sketched out, providing options to choose from when designing 
+                                        the artefact. Between the two sketches the later was chosen with the pin points on Japan
+                                        which would lead the audience onto the different pages within the design. 
+                                    </p>
+                                    <img src="images/sketched1.jpg" class="modal3Img">
+                                    <img src="images/sketched2.jpg" class="modal3Img">
+                                    <p>
+                                        When it came to the development of the design, the brief required for Adobe Animate to be
+                                        used to help introduce the students into different forms of animation. The process of 
+                                        placing each page into the same animate scene by changing all the animations into move 
+                                        clips was used to begin the assignment, then placing the pages onto one action script 
+                                        scene, allowing for one continuous animation which could be toggled between. Once all
+                                        the information had been transferred the next stage was to lay out all the information
+                                        within each page. This was achieved by placing all the layers of one page into a folder
+                                        and organising the folder to show the elements which are at the back of the scene, at
+                                        the bottom of the folder, and with the elements which are at the front of the scene
+                                        at the top of the folder, allowing for nothing to overlap within the scene, and 
+                                        ensuring that the design is still the same. Organisation was then started, grouping 
+                                        similar elements on the timeline together and then shuffling along separate elements 
+                                        to create a continuous timeline with no breaks. 
+                                    </p> 
+                                    <img src="images/timeline.jpg" class="modal3Img">
+                                    <p>
+                                        Animations within the artefact were then developed using a variety of motion tweens,
+                                        motion paths and button animations, which were creating using content developed in 
+                                        Adobe Photoshop with the final piece of animation being the Video which was taken from 
+                                        another source (YouTube). In order to import the video file it needed to be formatted as
+                                        a .flv file which could then be imported into the Animate programme and added to a specific
+                                        page on the artefact. 
+                                    </p>
+                                    <p>
+                                        Throughout the whole artifact there is a range of ActionScript which has been used to create
+                                        elements like the buttons, and to change the music in the scene. Using a separate action 
+                                        layer and different code snippets, the artefact could be brought together and connected to 
+                                        all the different elements within the artefact.
+                                    </p>
+                                    <img src="images/landingp.jpg" class="modal3Img">
+                                    <p>
+                                        Overall there were a range of different skills which had been learnt from this assignment, 
+                                        including design techniques, ActionScript coding and user interaction. Although, looking 
+                                        back there are a few elements which I would change about this assignment, improved I am 
+                                        happy with the outcome because of the progress which I have made through this assignment.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="workTxt4"> 
+                            <div class="modalBox">
+                                <div class="titleHr">
+                                    <h3>3D Animation and Modelling</h3>
+                                    <hr>
+                                </div>
+                                <h4>University Project</h4>
+                                <img src="./images/spirit.png" alt="forest spirit logo" class="tileImgs">
+                                <p class="modalTxt4" id="overview">
+                                    Modelled, rigged, shaded and animated a three dimensional character using Autodesk Maya. With the 
+                                    theme being based around the forest spirit from the popular Japanese film ‘Princess
+                                    Mononoke’. 
+                                </p>
+                                <!-- Modal----------------------------------- -->
+                                <a class="modalButton" href="#modal4">Read more...</a>
+                            </div>
+                            <div id="modal4" class="overlay">
+                                <div class="modal">
+                                    <hr>
+                                    <h2>3D Animation and Modelling</h2>
+                                    <hr>
+                                    <a class="close" href="#">&times;</a>
+                                    <div class="content">
+                                        <p>
+                                            Within the second year of my Digital media course one of the modules which chosen
+                                            was 3D animation and modelling, in which it was tasked to create a three dimensional
+                                            character or landscape using Autodesk Maya. First and theme was chosen for this
+                                            assignment, which was decided to be the forest spirit form the popular Japanese
+                                            animation film ‘Princess Mononoke’ which closely resembled a deer, allowing for
+                                            different images of deer to be used as references for scale. One of the main 
+                                            references which was used when creating the animal was a side profile image of
+                                            the forest spirit (taken from a blog post online) which was projected onto an 
+                                            image plane, allowing for the different polygons to be modelled around it,
+                                            providing correct proportions for the animal. 
+                                        </p>
+                                        <img src="images/nhair.jpg" class="modal4Img">
+                                        <p>
+                                            Once the animal had been modelled using Maya, the textures were then applied to enhance
+                                            the realism of the animation. To begin the texturing, it was originally attempted to 
+                                            use the hyper shade within Maya, but this did not give the desired effect which the 
+                                            model required. Having hair on the body was the next thought, so research went into 
+                                            the use of Nhair and 3D paint textures which were attempted on the model but displayed
+                                            an issue with the modelling as the hairs came out of random sections of the body, 
+                                            which did not look realistic and could not be adjusted even after adjusting the 
+                                            direction of the normals. After many attempts taking the model into different 
+                                            software (including Blender), the Maya 3D paint tool was referred back to and used
+                                            on the model after the whole model had been ungrouped, allowing for each individual
+                                            element of the model to be separated and viewed individually, supporting the paint
+                                            not to be repeated around the body.  
+                                        </p>
+                                        <img src="images/rigging.jpg" class="modal4Img">
+                                        <p>
+                                            When it came to animate the model there were a few issues which were encountered during
+                                            this process, as some of the ligaments were indirectly connected to other elements of 
+                                            the design. This was mostly overcome using skin paint weights to avoid unwanted movement 
+                                            when working on the model. A rig was created throughout the body, with handles which were
+                                            used to move the different elements of design separately. The finished animation 
+                                            showed the forest spirit taking small steps whilst looking around the environment 
+                                            with different gestures. 
+                                        </p>
+                                        <img src="images/forestAnimalMain.jpg" class="modal4Img">
+                                        <p>
+                                            Overall this assignment challenged all of my skills within the subject, but also allowed
+                                            the progression of my skills in the new techniques which I had learnt. The result of 
+                                            the assignment is what I had planned to achieve although if I were to go back to this 
+                                            assignment I would investigate more into adding hair onto different models.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    
+                </div>
+
+                <div class="bottomWork">
+                    <img src="./images/PROJECTS_1.2.png">
+                </div>
+                <!-- Contact Me ------------------------------------------------- -->
+                <div id="Contact" class="contact">
+                    <h1 class="contactHead">Contact Me <hr class="contactLine"></h1>  
+                    <div class="contactForm">  
+                        <form id="contact" action="mailto:a.spain1@uni.brighton.ac.uk" method="post" enctype="text/plain">
+                        <fieldset>
+                            <input placeholder="Your name" type="text" tabindex="1" required>
+                        </fieldset>
+                        <fieldset>
+                            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                        </fieldset>
+                        <fieldset>
+                            <input placeholder="Your Web Site (optional)" type="url" tabindex="4">
+                        </fieldset>
+                        <fieldset>
+                            <textarea placeholder="Your message...." tabindex="5" required></textarea>
+                        </fieldset>
+                        <fieldset>
+                            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                        </fieldset>
+                        </form>
+                    </div>
+
+                    <div class="footer-social-icons">
+                        <h4 class="icon-txt">Follow me on social media</h4>
+                        <!--https://codepen.io/laurenclark/pen/hGiqo-->
+                        <ul class="social-icons">
+                            <li><a href="https://www.pinterest.co.uk/nobodyliveslife/" target="_blank" class="social-icon"> <i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="https://www.instagram.com/annabelspaindesigns/" target="_blank" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+                            <li><a href="" class="social-icon"> <i class="fa fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/annabelspain123/" target="_blank" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.behance.net/annabelspain123/" target="_blank" class="social-icon"> <i class="fa fa-behance"></i></a></li>
+                        </ul>
+                    </div>
+                    <p class="footerTxt">Copyright © 2020 Annabel Spain</p>
+                </div>  
+                <!-- ------------------------------------------------- -->
+                
+            </div>
+        </main> 
+    </body>
+</html>
+            
